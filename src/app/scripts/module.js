@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('sourcingSample1', ['ngRoute', 'toastr', 'smart-table',]);
+angular.module('ngGulpSample', ['ngRoute', 'toastr', 'smart-table',]);

@@ -1,6 +1,6 @@
 'use strict'
 
-angular.module("sourcingSample1").service('dataService', ['$http', function ($http) {
+angular.module("ngGulpSample").service('dataService', ['$http', function ($http) {
 
 	this.getData = function () {
 		return {

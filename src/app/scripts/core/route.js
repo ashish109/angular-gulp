@@ -1,7 +1,7 @@
   'use strict';
 
 
-  angular.module("sourcingSample1").config(['$routeProvider', function($routeProvider) {
+  angular.module("ngGulpSample").config(['$routeProvider', function($routeProvider) {
 
     $routeProvider
       .when('/', {

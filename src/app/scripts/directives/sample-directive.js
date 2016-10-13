@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module("sourcingSample1").directive('sampleDirective',function () {
+angular.module("ngGulpSample").directive('sampleDirective',function () {
 
 	return {
 		restrict: 'A',
