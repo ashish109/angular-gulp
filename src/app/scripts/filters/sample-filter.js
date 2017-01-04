@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module("ngGulpSample").filter('sampleFilter', [ function () {
+angular.module("SKPBQ").filter('sampleFilter', [ function () {
 
 	return function (input) {
 		return input.toUpperCase();

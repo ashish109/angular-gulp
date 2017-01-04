@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('ngGulpSample', ['ui.router', 'toastr']);
+angular.module('SKPBQ', ['ui.router', 'toastr']);

@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module("ngGulpSample").directive('sampleDirective',function () {
+angular.module("SKPBQ").directive('sampleDirective',function () {
 
 	return {
 		restrict: 'A',

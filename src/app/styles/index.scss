@@ -3,7 +3,8 @@
 // bower:scss
 // endbower
 
-@import "layout.scss";
+/*import all the new scss files that you create - Order is very important*/
+@import "mixins.scss";@import "layout.scss";
 
 /*// injector
 // endinjector*/

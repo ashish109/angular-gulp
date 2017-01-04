@@ -1,0 +1,13 @@
+<div class="container childView">
+    <p ng-repeat="info in info" sample-directive>{{info | sampleFilter}}</p>
+    <nav>
+        <div class="col-md-4"><a ui-sref="home.childView1">LINK1</a></div>
+        <div class="col-md-4"><a ui-sref="home.childView2">LINK2</a></div>
+        <div class="col-md-4"><a ui-sref="home.childView3">LINK3</a></div>
+    </nav>
+    <div class="row childView">
+        <div class="col-md-2  col-md-offset-5" ui-view></div>
+    </div>
+</div>
+
+

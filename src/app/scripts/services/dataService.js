@@ -1,11 +1,11 @@
 'use strict'
 
-angular.module("ngGulpSample").service('dataService', ['$http', function ($http) {
+angular.module("SKPBQ").service('dataService', ['$http', function ($http) {
 
 	this.getData = function () {
 		return {
 			greetings: 'Hello!',
-			info : 'This is a sample data'
+			info : 'This is  sample data'
 		};
 	};
 
