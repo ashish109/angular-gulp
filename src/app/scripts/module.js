@@ -1,3 +1,3 @@
 'use strict';
 
-angular.module('ngGulpSample', ['ngRoute', 'toastr', 'smart-table',]);
+angular.module('ngGulpSample', ['ui.router', 'toastr']);

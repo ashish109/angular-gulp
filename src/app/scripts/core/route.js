@@ -1,15 +1,18 @@
-  'use strict';
 
+/**
+ *ROUTE CONFIGURATIONS    
+ */
 
-  angular.module("ngGulpSample").config(['$routeProvider', function($routeProvider) {
+'use strict';
 
-    $routeProvider
-      .when('/', {
-        templateUrl: 'app/templates/main.html',
-        controller: 'MainController',
-        controllerAs: 'main'
-      })
-      .otherwise({
-        redirectTo: '/'
-      });
-  }]);
+angular.module("ngGulpSample").config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
+
+    $stateProvider
+        .state('home', {
+            url: '/home',
+            templateUrl: 'app/templates/home.html'
+        });
+
+    $urlRouterProvider.otherwise('/home');
+    
+}]);
